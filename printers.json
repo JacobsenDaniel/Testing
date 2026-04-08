@@ -1,0 +1,17 @@
+{
+  "hp-laserjet-pro-4001": {
+    "name": "HP LaserJet Pro 4001",
+    "image_url": "https://via.placeholder.com/600x400?text=HP+LaserJet+Pro+4001",
+    "url": "https://example.com/printers/hp-laserjet-pro-4001"
+  },
+  "canon-maxify-gx3020": {
+    "name": "Canon MAXIFY GX3020",
+    "image_url": "https://via.placeholder.com/600x400?text=Canon+MAXIFY+GX3020",
+    "url": "https://example.com/printers/canon-maxify-gx3020"
+  },
+  "epson-ecotank-et3850": {
+    "name": "Epson EcoTank ET-3850",
+    "image_url": "https://via.placeholder.com/600x400?text=Epson+EcoTank+ET-3850",
+    "url": "https://example.com/printers/epson-ecotank-et3850"
+  }
+}
