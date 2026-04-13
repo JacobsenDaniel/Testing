@@ -1,0 +1,131 @@
+{
+  "source": "Waymo public availability and pilot demo dataset",
+  "last_updated": "2026-04-13",
+  "brand": "Waymo",
+  "instructions_for_agent": {
+    "available_now_rule": "If status is available_now, tell the customer Waymo is currently available there.",
+    "limited_access_rule": "If status is limited_access, tell the customer Waymo is available in a limited rollout or rolling access model.",
+    "partner_app_rule": "If status is available_via_partner, tell the customer Waymo rides are available there via a partner app rather than directly in the Waymo app.",
+    "pilot_rule": "If status is pilot_or_testing, tell the customer Waymo is not yet broadly available there, but it is being piloted or prepared for launch soon.",
+    "not_listed_rule": "If a city is not listed, say you do not see current Waymo availability for that city in the external source."
+  },
+  "cities": [
+    {
+      "city": "San Francisco",
+      "region": "California",
+      "country": "USA",
+      "status": "available_now",
+      "channel": "Waymo app",
+      "customer_facing_answer": "Yes, Waymo is currently available in San Francisco.",
+      "response_hint": "Confirm availability clearly and offer a short next step."
+    },
+    {
+      "city": "Los Angeles",
+      "region": "California",
+      "country": "USA",
+      "status": "available_now",
+      "channel": "Waymo app",
+      "customer_facing_answer": "Yes, Waymo is currently available in Los Angeles.",
+      "response_hint": "Confirm availability clearly and offer a short next step."
+    },
+    {
+      "city": "Phoenix",
+      "region": "Arizona",
+      "country": "USA",
+      "status": "available_now",
+      "channel": "Waymo app",
+      "customer_facing_answer": "Yes, Waymo is currently available in Metro Phoenix.",
+      "response_hint": "Confirm availability clearly and offer a short next step."
+    },
+    {
+      "city": "Miami",
+      "region": "Florida",
+      "country": "USA",
+      "status": "available_now",
+      "channel": "Waymo app",
+      "customer_facing_answer": "Yes, Waymo is currently available in Miami.",
+      "response_hint": "Confirm availability clearly and mention rollout may expand over time."
+    },
+    {
+      "city": "Orlando",
+      "region": "Florida",
+      "country": "USA",
+      "status": "limited_access",
+      "channel": "Waymo app",
+      "customer_facing_answer": "Waymo is now opening access in Orlando, so availability may still be rolling out.",
+      "response_hint": "Say it is available, but frame it as early public access or rolling access."
+    },
+    {
+      "city": "Dallas",
+      "region": "Texas",
+      "country": "USA",
+      "status": "limited_access",
+      "channel": "Waymo app",
+      "customer_facing_answer": "Waymo is now opening access in Dallas, so availability may still be rolling out.",
+      "response_hint": "Say it is available, but frame it as early public access or rolling access."
+    },
+    {
+      "city": "Houston",
+      "region": "Texas",
+      "country": "USA",
+      "status": "limited_access",
+      "channel": "Waymo app",
+      "customer_facing_answer": "Waymo is now opening access in Houston, so availability may still be rolling out.",
+      "response_hint": "Say it is available, but frame it as early public access or rolling access."
+    },
+    {
+      "city": "San Antonio",
+      "region": "Texas",
+      "country": "USA",
+      "status": "limited_access",
+      "channel": "Waymo app",
+      "customer_facing_answer": "Waymo is now opening access in San Antonio, so availability may still be rolling out.",
+      "response_hint": "Say it is available, but frame it as early public access or rolling access."
+    },
+    {
+      "city": "Nashville",
+      "region": "Tennessee",
+      "country": "USA",
+      "status": "limited_access",
+      "channel": "Waymo app",
+      "customer_facing_answer": "Waymo is beginning public rider access in Nashville, so it may still be rolling out.",
+      "response_hint": "Say it is becoming available now and may be limited or invite-based at first."
+    },
+    {
+      "city": "Austin",
+      "region": "Texas",
+      "country": "USA",
+      "status": "available_via_partner",
+      "channel": "Uber app",
+      "customer_facing_answer": "Yes, Waymo rides are available in Austin through Uber.",
+      "response_hint": "Clarify that customers access Waymo there through Uber rather than directly through the Waymo app."
+    },
+    {
+      "city": "Atlanta",
+      "region": "Georgia",
+      "country": "USA",
+      "status": "available_via_partner",
+      "channel": "Uber app",
+      "customer_facing_answer": "Yes, Waymo rides are available in Atlanta through Uber.",
+      "response_hint": "Clarify that customers access Waymo there through Uber rather than directly through the Waymo app."
+    },
+    {
+      "city": "Washington",
+      "region": "District of Columbia",
+      "country": "USA",
+      "status": "pilot_or_testing",
+      "channel": "Not yet public",
+      "customer_facing_answer": "Not yet, but soon. Waymo is preparing for service in Washington, D.C.",
+      "response_hint": "Use the phrasing 'not yet, but soon' and avoid implying fully open public availability today."
+    },
+    {
+      "city": "Tokyo",
+      "region": "Tokyo",
+      "country": "Japan",
+      "status": "pilot_or_testing",
+      "channel": "Not yet public",
+      "customer_facing_answer": "Not yet, but soon. Waymo is actively introducing and testing operations in Tokyo.",
+      "response_hint": "Use the phrasing 'not yet, but soon' and avoid implying fully open public availability today."
+    }
+  ]
+}
